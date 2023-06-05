@@ -13,9 +13,11 @@ const Nav = styled.div`
   font-weight: 600;
   margin: auto;
   padding-top: 20px;
+
   a {
     color: #777;
   }
+
   .active {
     color: rgb(50, 148, 248);
   }
@@ -63,7 +65,7 @@ const Layout = () => {
         </div>
         <div>
           <Name>제시</Name>
-          <Description>브롤스타즈~</Description>
+          <Description>여기도 바꾸나요?</Description>
         </div>
       </Profile>
       <Nav>
